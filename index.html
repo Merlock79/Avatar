@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avatar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css"
+        integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -11,14 +14,11 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css"
-        integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
 <div>
-    <img src="./images/logo-avatar.jpg" alt="Avatar logo">
+    <a href=""><img src="./images/logo-avatar.jpg" alt="Avatar logo"></a>
     <nav>
         <ul>
             <li>
@@ -32,7 +32,7 @@
             </li>
         </ul>
     </nav>
-    <a href="https://www.avatar.com/">Увійти</a>
+    <button type="button">Увійти</button>
 </div>
     </header>
     <main>
@@ -48,55 +48,57 @@
                 щоб стати частиною Народу.
                 Борись разом з нами!</p>
                 
-                <a href="https://www.avatar.com/">Приєднатися до клану</a>
+                <button type="button">Приєднатися до клану</button>
+                <ul>
+                    <li><a href="https://www.instagram.com/accounts/login/"><img src="./images/instagram.jpg" alt="instagram logo"></a></li>
+                    <li><a href="https://x.com/?lang=uk"><img src="./images/twitter.jpg" alt="twitter logo"></a></li>
+                    <li><a href="https://www.youtube.com/"><img src="./images/youtube.jpg" alt="youtube logo"></a></li>
+                </ul>
             </div>
         </section>
         <section>
             <div>
-            <h1>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ</h1>
-            <h1>ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”</h1>
+            <h2>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”</h2>
             <p>Джейк Саллі</p>
-            <img src="./images/birdandtwosticks.jpg" alt="">
             </div>
         </section>
         <section>
             <div>
-            <img src="./images/women.jpg" alt="women">
+            <h2>“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</h2>
+            <p>Джейк Саллі</p>
+            </div>
+        </section>
+        <section>
+            <div>
             <a href="https://www.youtube.com/watch?v=5PSNL1qE6VY">Дивитись трейлер</a>
             </div>
         </section>
         <section>
             <div>
-                <h1>Вчимо мову На'ві</h1>
+                <h2>Вчимо мову На'ві</h2>
                 <ul>
                     <li>
                         <h2>Привіт</h2>
-                        <img src="./images/stick-left.jpg" alt="">
                         <h2>Kaltxì</h2>
                     </li>
                     <li>
                         <h2>Як справи?</h2>
-                        <img src="./images/birdandtwosticks.jpg" alt="">
                         <h2>Ngaru lu fpom srak?</h2>
                     </li>
                     <li>
                         <h2>Все добре</h2>
-                        <img src="./images/stick-right.jpg" alt="">
                         <h2>Lu fpom</h2>
                     </li>
                     <li>
                         <h2>Дякую</h2>
-                        <img src="./images/stick-left.jpg" alt="">
                         <h2>Irayo si</h2>
                     </li>
                     <li>
                         <h2>Я бачу тебе</h2>
-                        <img src="./images/birdandtwosticks.jpg" alt="">
                         <h2>Oel ngati kameie</h2>
                     </li>
                     <li>
                         <h2>Слідуй за мною!</h2>
-                        <img src="./images/stick-right.jpg" alt="">
                         <h2>Nong oet!</h2>
                     </li>
                 </ul>
@@ -104,14 +106,30 @@
         </section>
         <section>
             <div>
-                <h1>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,</h1>
-                <h1>ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</h1>
-                <img src="./images/birdandtwosticks.jpg" alt="">
+                <h2>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</h2>
+                <p>Нейтірі</p>
             </div>
         </section>
     </main>
     <footer>
-        <img src="./images/logo-avatar.jpg" alt="Avatar logo">
+        <div>
+<img src="./images/logo-avatar.jpg" alt="Avatar logo">
+<ul>
+    <li>
+        <p>Q&A E-mail</p>
+    </li>
+    <li>
+        <p>avatartwowqa@gmail.com</p>
+    </li>
+    <li>
+        <p>Cooperation E-mail</p>
+    </li>
+    <li>
+        <p>avatartwowcoop@gmail.com</p>
+    </li>
+</ul>
+<p>©2023 Avatar: The Way Of Water. All rights reserved</p>
+        </div>
     </footer>
 </body>
 </html>
