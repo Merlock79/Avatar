@@ -13,17 +13,21 @@ color: #26c6ea
 .body {
     font-family: var(--font-family);
     font-weight: 400;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 .container {
     display: flex;
-    width: 1440px;
+    width: 1032px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header {
     background-image: url(../images/man-on-bird.jpg);
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 .menu-link {
-font-family: var(--font-family);
 font-weight: 300;
 font-size: 20px;
 text-align: center;
@@ -37,19 +41,20 @@ height: 41px;
 background-color: #0b0e66;
 color: #26c6ea
 }
+.main {
+    margin: 0 auto;
+}
 .main-big-text {
     background-image: url(../images/man.jpg);
     background-repeat: no-repeat;
+    margin: 0 auto;
+height: 730px;
 }
 .main-big-text-their {
-font-family: var(--font-family);
-font-weight: 400;
 font-size: 20px;
 color: #fff;
 }
 .main-big-text-our {
-font-family: var(--font-family);
-font-weight: 400;
 font-size: 20px;
 color: #fff;
 }
@@ -62,19 +67,17 @@ background: #0b0e66;
 color: #26c7ea;
 }
 .first-sentence {
-    background-image: url(../images/birdandtwosticks.jpg);
+    background-image: url(../images/birdandtwosticks.png);
     background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 350px;
 }
 .first-sentence-title {
-font-family: var(--font-family);
-font-weight: 400;
 font-size: 36px;
 text-align: justify;
 color: #0a3853;
 }
 .first-sentence-text {
-font-family: var(--font-family);
-font-weight: 400;
 font-size: 24px;
 text-align: center;
 color: #000;
@@ -82,6 +85,7 @@ color: #000;
 .trailer {
     background-image: url(../images/women.jpg);
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 .trailer-text {
 border: 3px solid #26c7ea;
@@ -92,19 +96,16 @@ background: #0b0e66;
 color: #26c7ea;
 }
 .second-sentence {
-    background-image: url(../images/birdandtwosticks.jpg);
+    background-image: url(../images/birdandtwosticks.png);
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 .second-sentence-title {
-font-family: var(--font-family);
-font-weight: 400;
 font-size: 36px;
 text-align: justify;
 color: #141414;
 }
 .second-sentence-text {
-font-family: var(--font-family);
-font-weight: 400;
 font-size: 24px;
 text-align: justify;
 color: #000;
@@ -112,17 +113,16 @@ color: #000;
 .learning {
     background-image: url(../images/lifting-world.jpg);
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 .learning-title {
     font-family: var(--second-family);
-font-weight: 400;
 font-size: 32px;
 text-align: justify;
 color: #141414;
 }
 .learning-list-our {
     font-family: var(--second-family);
-font-weight: 400;
 font-size: 24px;
 line-height: 100%;
 text-align: justify;
@@ -130,14 +130,13 @@ color: #141414;
 }
 .learning-list-their {
     font-family: var(--second-family);
-font-weight: 400;
 font-size: 24px;
 line-height: 100%;
 text-align: justify;
 color: #000;
 }
 .learning-list-left {
-    background-image: url(../images/stick-left.jpg);
+    background-image: url(../images/stick-left.png);
     background-repeat: no-repeat;
 }
 .learning-list-right {
@@ -145,23 +144,20 @@ color: #000;
     background-repeat: no-repeat;
 }
 .learning-list-center {
-    background-image: url(../images/birdandtwosticks.jpg);
+    background-image: url(../images/birdandtwosticks.png);
     background-repeat: no-repeat;
 }
 .third-sentence {
-    background-image: url(../images/birdandtwosticks.jpg);
+    background-image: url(../images/birdandtwosticks.png);
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 .third-sentence-title{
-    font-family: var(--font-family);
-font-weight: 400;
 font-size: 36px;
 text-align: justify;
 color: #141414;
 }
 .third-sentence-text {
-    font-family: var(--font-family);
-font-weight: 400;
 font-size: 24px;
 text-align: justify;
 color: #000;
@@ -169,17 +165,14 @@ color: #000;
 .footer {
     background-image: url(../images/man-on-bird.jpg);
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 .footer-list {
-    font-family: var(--font-family);
-font-weight: 400;
 font-size: 20px;
 text-align: justify;
 color: #fff;
 }
 .footer-copyright {
-    font-family: var(--font-family);
-font-weight: 400;
 font-size: 14px;
 text-align: justify;
 color: #fff;
