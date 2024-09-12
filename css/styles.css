@@ -17,10 +17,11 @@ color: #26c6ea
     max-width: 1440px;
 }
 .container {
-    display: flex;
+/*     display: flex; */
     width: 1032px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
 }
 .header {
     background-image: url(../images/man-on-bird.jpg);
@@ -71,6 +72,8 @@ color: #26c7ea;
     background-repeat: no-repeat;
     margin: 0 auto;
     height: 350px;
+    display: flex;
+    justify-content: center;
 }
 .first-sentence-title {
 font-size: 36px;
@@ -95,12 +98,17 @@ width: 260px;
 height: 80px;
 background: #0b0e66;
 color: #26c7ea;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
 }
 .second-sentence {
     background-image: url(../images/birdandtwosticks.png);
     background-repeat: no-repeat;
     margin: 0 auto;
     height: 350px;
+    display: flex;
+    justify-content: center;
 }
 .second-sentence-title {
 font-size: 36px;
@@ -155,11 +163,20 @@ color: #000;
     background-repeat: no-repeat;
     margin: 0 auto;
     height: 350px;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    background-position: center 220px;
 }
 .third-sentence-title{
 font-size: 36px;
 text-align: justify;
 color: #141414;
+width: 886px;
+    margin: 0 auto;
+    text-align: center
 }
 .third-sentence-text {
 font-size: 24px;
