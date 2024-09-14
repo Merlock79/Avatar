@@ -23,10 +23,24 @@ color: #26c6ea
     padding-right: 15px;
     margin: 0 auto;
 }
+.container-header {
+    width: 1440px;
+    display: flex;
+    padding-left: 204px;
+    padding-right: 48px;
+    align-items: center;
+}
+.hero-container {
+    display: flex;
+}
 .header {
-    background-image: url(../images/man-on-bird.jpg);
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43,74,97,0.87)), url(../images/man-on-bird.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
+}
+.menu {
+    display: flex;
+    column-gap: 38px;
 }
 .menu-link {
 font-weight: 300;
@@ -81,9 +95,9 @@ color: #26c7ea;
 }
 .first-sentence-title {
 font-size: 36px;
+font-weight: 400;
 text-align: justify;
 color: #0a3853;
-    width: 886px;
     margin: 0 auto;
     text-align: center;
 }
@@ -123,8 +137,11 @@ color: #26c7ea;
 }
 .second-sentence-title {
 font-size: 36px;
+font-weight: 400;
 text-align: justify;
 color: #141414;
+    margin: 0 auto;
+    text-align: center;
 }
 .second-sentence-text {
 font-size: 24px;
@@ -211,7 +228,6 @@ margin: 0 auto;
 font-size: 36px;
 text-align: justify;
 color: #141414;
-width: 886px;
     margin: 0 auto;
     text-align: center
 }
