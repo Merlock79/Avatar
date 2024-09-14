@@ -17,7 +17,6 @@ color: #26c6ea
     max-width: 1440px;
 }
 .container {
-/*     display: flex; */
     width: 1032px;
     padding-left: 15px;
     padding-right: 15px;
@@ -32,6 +31,11 @@ color: #26c6ea
 }
 .hero-container {
     display: flex;
+    column-gap: 606px;
+}
+.hero-item-second {
+    text-align: end;
+    margin: auto;
 }
 .header {
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43,74,97,0.87)), url(../images/man-on-bird.jpg);
@@ -64,6 +68,7 @@ color: #26c6ea
     background-repeat: no-repeat;
     margin: 0 auto;
 height: 730px;
+padding-top: 180px;
 }
 .main-big-text-their {
 font-size: 20px;
@@ -80,6 +85,10 @@ width: 260px;
 height: 80px;
 background: #0b0e66;
 color: #26c7ea;
+}
+.social-networks-item {
+    margin-top: 24px;
+    margin-bottom: 27px;
 }
 .first-sentence {
     background-image: url(../images/birdandtwosticks.png);
