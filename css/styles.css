@@ -74,11 +74,18 @@ color: #26c7ea;
     height: 350px;
     display: flex;
     justify-content: center;
+        max-width: 1440px;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    background-position: center 220px;
 }
 .first-sentence-title {
 font-size: 36px;
 text-align: justify;
 color: #0a3853;
+    width: 886px;
+    margin: 0 auto;
+    text-align: center;
 }
 .first-sentence-text {
 font-size: 24px;
@@ -109,6 +116,10 @@ color: #26c7ea;
     height: 350px;
     display: flex;
     justify-content: center;
+    max-width: 1440px;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    background-position: center 220px;
 }
 .second-sentence-title {
 font-size: 36px;
@@ -125,6 +136,8 @@ color: #000;
     background-repeat: no-repeat;
     margin: 0 auto;
     height: 704px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .learning-lists {
     display: flex;
@@ -137,6 +150,8 @@ color: #000;
 font-size: 32px;
 text-align: justify;
 color: #141414;
+margin-bottom: 30px;
+text-align: center;
 }
 .learning-list-our {
     font-family: var(--second-family);
@@ -151,18 +166,34 @@ font-size: 24px;
 line-height: 100%;
 text-align: justify;
 color: #000;
+margin: 0 auto;
 }
 .learning-list-left {
     background-image: url(../images/stick-left.png);
     background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: calc((100% - 60px) / 3);
 }
 .learning-list-right {
     background-image: url(../images/stick-right.png);
     background-repeat: no-repeat;
+        padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: calc((100% - 60px) / 3);
 }
 .learning-list-center {
     background-image: url(../images/birdandtwosticks.png);
     background-repeat: no-repeat;
+        padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: calc((100% - 60px) / 3);
 }
 .third-sentence {
     background-image: url(../images/birdandtwosticks.png);
