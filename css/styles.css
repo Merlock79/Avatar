@@ -71,10 +71,12 @@ height: 730px;
 padding-top: 180px;
 }
 .main-big-text-their {
+    font-family: var(--font-family);
 font-size: 20px;
 color: #fff;
 }
 .main-big-text-our {
+    font-family: var(--font-family);
 font-size: 20px;
 color: #fff;
 }
@@ -114,12 +116,15 @@ color: #0a3853;
 font-size: 24px;
 text-align: center;
 color: #000;
+text-align: center;
 }
 .trailer {
     background-image: url(../images/women.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
     height: 731px;
+    padding-top: 330px;
+    padding-bottom: 330px;
 }
 .trailer-text {
 border: 3px solid #26c7ea;
@@ -131,6 +136,7 @@ color: #26c7ea;
     display: flex;
     justify-content: center;
     padding-top: 25px;
+    margin: 0 auto;
 }
 .second-sentence {
     background-image: url(../images/birdandtwosticks.png);
@@ -156,6 +162,7 @@ color: #141414;
 font-size: 24px;
 text-align: justify;
 color: #000;
+text-align: center;
 }
 .learning {
     background-image: url(../images/lifting-world.jpg);
@@ -202,6 +209,9 @@ margin: 0 auto;
     flex-direction: column;
     justify-content: space-between;
     flex-basis: calc((100% - 60px) / 3);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-size: 152px 40px;
+    background-position: center;
 }
 .learning-list-right {
     background-image: url(../images/stick-right.png);
@@ -211,6 +221,9 @@ margin: 0 auto;
     flex-direction: column;
     justify-content: space-between;
     flex-basis: calc((100% - 60px) / 3);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-size: 152px 40px;
+    background-position: center;
 }
 .learning-list-center {
     background-image: url(../images/birdandtwosticks.png);
@@ -220,6 +233,9 @@ margin: 0 auto;
     flex-direction: column;
     justify-content: space-between;
     flex-basis: calc((100% - 60px) / 3);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-size: 152px 40px;
+    background-position: center;
 }
 .third-sentence {
     background-image: url(../images/birdandtwosticks.png);
@@ -244,9 +260,10 @@ color: #141414;
 font-size: 24px;
 text-align: justify;
 color: #000;
+text-align: center;
 }
 .footer {
-    background-image: url(../images/man-on-bird.jpg);
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43,74,97,0.87)), url(../images/man-on-bird.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
     height: 223px;
