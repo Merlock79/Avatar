@@ -38,14 +38,27 @@ color: #26c6ea
     text-align: end;
     margin: auto;
 }
+.hero-content {
+    background-image: url(../images/white-line.png);
+    background-repeat: no-repeat;
+    background-position: 50px 105px;
+}
 .header {
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43,74,97,0.87)), url(../images/man-on-bird.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
+    height: 150px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+.logo-img {
+    width: 186px;
+    padding-left: 30px;
 }
 .menu {
     display: flex;
     column-gap: 38px;
+    padding-left: 100px;
 }
 .menu-link {
 font-weight: 300;
@@ -55,11 +68,18 @@ color: #fff;
 }
 .login {
 border: 2px solid #26c7ea;
-border-radius: 35px 0;
+border-top-left-radius: 45px;
+border-bottom-right-radius: 45px;
+font-size: 24px;
 width: 141px;
 height: 41px;
 background-color: #0b0e66;
-color: #26c6ea
+color: #26c6ea;
+margin-left: 212px
+}
+.swither-text {
+    padding-right: 48px;
+    padding-left: 49px
 }
 .main {
     margin: 0 auto;
@@ -83,7 +103,9 @@ color: #fff;
 }
 .join {
 border: 3px solid #26c7ea;
-border-radius: 45px 0;
+font-size: 24px;
+border-top-left-radius: 45px;
+border-bottom-right-radius: 45px;
 width: 260px;
 height: 80px;
 background: #0b0e66;
@@ -129,7 +151,9 @@ text-align: center;
 }
 .trailer-text {
 border: 3px solid #26c7ea;
-border-radius: 45px 0;
+border-top-left-radius: 45px;
+border-bottom-right-radius: 45px;
+font-size: 24px;
 width: 260px;
 height: 80px;
 background: #0b0e66;
@@ -193,6 +217,7 @@ font-size: 24px;
 line-height: 100%;
 text-align: justify;
 color: #141414;
+margin: 0 auto;
 }
 .learning-list-their {
     font-family: var(--second-family);
@@ -274,10 +299,9 @@ text-align: center;
 .footer {
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43,74,97,0.87)), url(../images/man-on-bird.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
-/*     height: 223px; */
 width: 1440px;
-/*     display: flex; */
     padding-top: 35px;
     padding-bottom: 25px;
 }
@@ -290,30 +314,48 @@ width: 1440px;
     width: 689px;
     background-position: 195px;
     justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footer-lists {
+    margin-left: 46px;
 }
 .hero-list {
     font-size: 20px;
-    text-align: justify;
     background-image: url(../images/big-line.png);
     background-repeat: no-repeat;
     display: flex;
     width: 665px;
     background-position: 125px;
     justify-content: space-between;
+    margin-top: 40px;
 }
 .footer-copyright {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
-    text-align: justify;
     color: #fff;
+    padding-left: 478px;
 }
 .footer-list-text {
     color: var(--primary-link-color);
 }
+.hero-list-text {
+    color: var(--primary-link-color);
+}
+.footer-list-link {
+    color: var(--primary-link-color);
+    margin-top: 20px;
+}
+.hero-list-link {
+    color: var(--primary-link-color);
+    margin-top: 20px;
+}
 .container-second {
     display: flex;
-    align-items: center
+    align-items: center;
+}
+.logo-text-footer {
+    display: contents;
 }
 .logo-text-footer::after {
     content: '';
@@ -321,5 +363,5 @@ width: 1440px;
     height: 153px;
     background-color: #fff;
     display: inline-block;
-    margin-left: 80px
+    margin-left: 80px;
 }
