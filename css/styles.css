@@ -314,10 +314,10 @@ width: 1440px;
     width: 689px;
     background-position: 195px;
     justify-content: space-between;
-    margin-bottom: 50px;
 }
 .footer-lists {
     margin-left: 46px;
+    margin-top: 15px;
 }
 .hero-list {
     font-size: 20px;
@@ -327,7 +327,6 @@ width: 1440px;
     width: 665px;
     background-position: 125px;
     justify-content: space-between;
-    margin-top: 40px;
 }
 .footer-copyright {
     font-family: var(--font-family);
@@ -341,6 +340,7 @@ width: 1440px;
 }
 .hero-list-text {
     color: var(--primary-link-color);
+    margin: 0;
 }
 .footer-list-link {
     color: var(--primary-link-color);
@@ -348,7 +348,6 @@ width: 1440px;
 }
 .hero-list-link {
     color: var(--primary-link-color);
-    margin-top: 20px;
 }
 .container-second {
     display: flex;
