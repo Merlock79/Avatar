@@ -50,6 +50,7 @@ color: #26c6ea
     height: 150px;
     padding-top: 39px;
     padding-bottom: 39px;
+    border-bottom: 1px solid white;
 }
 .logo-img {
     width: 186px;
