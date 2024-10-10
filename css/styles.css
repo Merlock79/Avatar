@@ -67,6 +67,23 @@ font-size: 20px;
 text-align: center;
 color: #fff;
 }
+.icon-switcher:hover{
+    fill: orange;
+}
+.icon-instagram:hover{
+fill: purple;
+}
+.icon-instagram, 
+.icon-twitter,
+.icon-youtube{
+fill: white;
+}
+.icon-twitter:hover{
+    fill: blue;
+}
+.icon-youtube:hover{
+    fill: red;
+}
 .login {
 border: 2px solid #26c7ea;
 border-top-left-radius: 45px;
