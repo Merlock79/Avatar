@@ -1,384 +1,393 @@
-/* border: 2px solid #26c7ea;
-border-radius: 35px 0;
-width: 141px;
-height: 41px;
-background-color: #0b0e66;
-color: #26c6ea
-кнопка увійти */
 :root {
-    --font-family: "Inter", sans-serif;
-    --second-family: "HeadlandOne", sans-serif;
-    --third-family: "Hammersmith One", sans-serif;
-    --primary-link-color: #fff;
+  --font-family: "Inter", sans-serif;
+  --second-family: "HeadlandOne", sans-serif;
+  --third-family: "Hammersmith One", sans-serif;
+  --primary-link-color: #fff;
 }
 .body {
-    font-family: var(--font-family);
-    font-weight: 400;
-    margin: 0 auto;
-    max-width: 1440px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 .container {
-    width: 1032px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+  width: 1032px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 .container-header {
-    width: 1440px;
-    display: flex;
-    padding-left: 204px;
-    padding-right: 48px;
-    align-items: center;
+  width: 1440px;
+  display: flex;
+  padding-left: 204px;
+  padding-right: 48px;
+  align-items: center;
 }
 .hero-container {
-    display: flex;
-    column-gap: 606px;
+  display: flex;
+  column-gap: 606px;
 }
 .hero-item-second {
-    text-align: end;
-    margin: auto;
+  text-align: end;
+  margin: auto;
 }
 .hero-content {
-    background-image: url(../images/white-line.png);
-    background-repeat: no-repeat;
-    background-position: 50px 105px;
+  background-image: url(../images/white-line.png);
+  background-repeat: no-repeat;
+  background-position: 50px 105px;
 }
 .header {
-    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43,74,97,0.87)), url(../images/man-on-bird.jpg);
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    height: 150px;
-    padding-top: 39px;
-    padding-bottom: 39px;
-    border-bottom: 3px solid white;
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(../images/man-on-bird.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 150px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  border-bottom: 3px solid white;
 }
 .logo-img {
-    width: 186px;
-    padding-left: 30px;
+  width: 186px;
+  padding-left: 30px;
 }
 .menu {
-    display: flex;
-    column-gap: 38px;
-    padding-left: 100px;
+  display: flex;
+  column-gap: 38px;
+  padding-left: 100px;
 }
 .menu-link {
-font-weight: 300;
-font-size: 20px;
-text-align: center;
-color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
 }
-.icon-switcher:hover{
-    fill: orange;
+.icon-switcher:hover {
+  fill: orange;
 }
-.icon-instagram:hover{
-fill: purple;
+.icon-instagram:hover {
+  fill: purple;
 }
-.icon-instagram, 
+.icon-instagram,
 .icon-twitter,
-.icon-youtube{
-fill: white;
+.icon-youtube {
+  fill: white;
 }
-.icon-twitter:hover{
-    fill: blue;
+.icon-twitter:hover {
+  fill: blue;
 }
-.icon-youtube:hover{
-    fill: red;
+.icon-youtube:hover {
+  fill: red;
 }
 .login {
-border: 2px solid #26c7ea;
-border-top-left-radius: 45px;
-border-bottom-right-radius: 45px;
-font-size: 24px;
-width: 141px;
-height: 41px;
-background-color: #0b0e66;
-color: #26c6ea;
-margin-left: 212px
+  border: 2px solid #26c7ea;
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  font-size: 24px;
+  width: 141px;
+  height: 41px;
+  background-color: #0b0e66;
+  color: #26c6ea;
+  margin-left: 212px;
+}
+.switcher {
+  padding-left: 49px;
 }
 .swither-text {
-    padding-right: 48px;
-    padding-left: 49px
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.switcher-span {
+  color: #fff;
 }
 .main {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .main-big-text {
-    background-image: url(../images/man.jpg);
-    background-repeat: no-repeat;
-    margin: 0 auto;
-height: 730px;
-padding-top: 180px;
+  background-image: url(../images/man.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 730px;
+  padding-top: 180px;
 }
 .main-big-text-their {
-    font-family: var(--font-family);
-font-size: 20px;
-color: #fff;
+  font-family: var(--font-family);
+  font-size: 20px;
+  color: #fff;
 }
 .main-big-text-our {
-    font-family: var(--font-family);
-font-size: 20px;
-color: #fff;
+  font-family: var(--font-family);
+  font-size: 20px;
+  color: #fff;
 }
 .join {
-border: 3px solid #26c7ea;
-font-size: 24px;
-border-top-left-radius: 45px;
-border-bottom-right-radius: 45px;
-width: 260px;
-height: 80px;
-background: #0b0e66;
-color: #26c7ea;
+  border: 3px solid #26c7ea;
+  font-size: 24px;
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  width: 260px;
+  height: 80px;
+  background: #0b0e66;
+  color: #26c7ea;
 }
 .social-networks-item {
-    margin-top: 24px;
-    margin-bottom: 27px;
+  margin-top: 24px;
+  margin-bottom: 27px;
 }
 .first-sentence {
-    background-image: url(../images/birdandtwosticks.png);
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-        max-width: 1440px;
-    padding-top: 75px;
-    padding-bottom: 10px;
-    background-position: center 220px;
+  background-image: url(../images/birdandtwosticks.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+  padding-top: 75px;
+  padding-bottom: 10px;
+  background-position: center 220px;
 }
 .first-sentence-title {
-font-size: 36px;
-font-weight: 400;
-text-align: justify;
-color: #0a3853;
-    margin: 0 auto;
-    text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: justify;
+  color: #0a3853;
+  margin: 0 auto;
+  text-align: center;
 }
 .first-sentence-text {
-font-size: 24px;
-text-align: center;
-color: #000;
-text-align: center;
+  font-size: 24px;
+  text-align: center;
+  color: #000;
+  text-align: center;
 }
 .trailer {
-    background-image: url(../images/women.jpg);
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    height: 731px;
-    padding-top: 330px;
-    padding-bottom: 330px;
+  background-image: url(../images/women.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 731px;
+  padding-top: 330px;
+  padding-bottom: 330px;
 }
 .trailer-text {
-border: 3px solid #26c7ea;
-border-top-left-radius: 45px;
-border-bottom-right-radius: 45px;
-font-size: 24px;
-width: 260px;
-height: 80px;
-background: #0b0e66;
-color: #26c7ea;
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
-    margin: 0 auto;
+  border: 3px solid #26c7ea;
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  font-size: 24px;
+  width: 260px;
+  height: 80px;
+  background: #0b0e66;
+  color: #26c7ea;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  margin: 0 auto;
 }
 .second-sentence {
-    background-image: url(../images/birdandtwosticks.png);
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    max-width: 1440px;
-    padding-top: 75px;
-    padding-bottom: 10px;
-    background-position: center 220px;
+  background-image: url(../images/birdandtwosticks.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+  padding-top: 75px;
+  padding-bottom: 10px;
+  background-position: center 220px;
 }
 .second-sentence-title {
-font-size: 36px;
-font-weight: 400;
-text-align: justify;
-color: #141414;
-    margin: 0 auto;
-    text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: justify;
+  color: #141414;
+  margin: 0 auto;
+  text-align: center;
 }
 .second-sentence-text {
-font-size: 24px;
-text-align: justify;
-color: #000;
-text-align: center;
+  font-size: 24px;
+  text-align: justify;
+  color: #000;
+  text-align: center;
 }
 .learning {
-    background-image: url(../images/lifting-world.jpg);
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    height: 704px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+  background-image: url(../images/lifting-world.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 704px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 .learning-lists {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    row-gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
 }
 .learning-title {
-    font-family: var(--second-family);
-font-size: 32px;
-text-align: justify;
-color: #141414;
-margin-bottom: 30px;
-text-align: center;
+  font-family: var(--second-family);
+  font-size: 32px;
+  text-align: justify;
+  color: #141414;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .learning-list-our {
-    font-family: var(--second-family);
-font-size: 24px;
-line-height: 100%;
-text-align: justify;
-color: #141414;
-margin: 0 auto;
+  font-family: var(--second-family);
+  font-size: 24px;
+  line-height: 100%;
+  text-align: justify;
+  color: #141414;
+  margin: 0 auto;
 }
 .learning-list-their {
-    font-family: var(--second-family);
-font-size: 24px;
-line-height: 100%;
-text-align: justify;
-color: #000;
-margin: 0 auto;
+  font-family: var(--second-family);
+  font-size: 24px;
+  line-height: 100%;
+  text-align: justify;
+  color: #000;
+  margin: 0 auto;
 }
 .learning-list-left {
-    background-image: url(../images/stick-left.png);
-    background-repeat: no-repeat;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-basis: calc((100% - 60px) / 3);
-    background-color: rgba(255, 255, 255, 0.7);
-    background-size: 152px 40px;
-    background-position: center;
-    width: 320px;
-    height: 240px;
+  background-image: url(../images/stick-left.png);
+  background-repeat: no-repeat;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: calc((100% - 60px) / 3);
+  background-color: rgba(255, 255, 255, 0.7);
+  background-size: 152px 40px;
+  background-position: center;
+  width: 320px;
+  height: 240px;
 }
 .learning-list-right {
-    background-image: url(../images/stick-right.png);
-    background-repeat: no-repeat;
-        padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-basis: calc((100% - 60px) / 3);
-    background-color: rgba(255, 255, 255, 0.7);
-    background-size: 152px 40px;
-    background-position: center;
-    width: 320px;
-    height: 240px;
+  background-image: url(../images/stick-right.png);
+  background-repeat: no-repeat;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: calc((100% - 60px) / 3);
+  background-color: rgba(255, 255, 255, 0.7);
+  background-size: 152px 40px;
+  background-position: center;
+  width: 320px;
+  height: 240px;
 }
 .learning-list-center {
-    background-image: url(../images/birdandtwosticks.png);
-    background-repeat: no-repeat;
-        padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-basis: calc((100% - 60px) / 3);
-    background-color: rgba(255, 255, 255, 0.7);
-    background-size: 152px 40px;
-    background-position: center;
-    width: 320px;
-    height: 240px;
+  background-image: url(../images/birdandtwosticks.png);
+  background-repeat: no-repeat;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: calc((100% - 60px) / 3);
+  background-color: rgba(255, 255, 255, 0.7);
+  background-size: 152px 40px;
+  background-position: center;
+  width: 320px;
+  height: 240px;
 }
 .third-sentence {
-    background-image: url(../images/birdandtwosticks.png);
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    max-width: 1440px;
-    padding-top: 75px;
-    padding-bottom: 10px;
-    background-position: center 220px;
+  background-image: url(../images/birdandtwosticks.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+  padding-top: 75px;
+  padding-bottom: 10px;
+  background-position: center 220px;
 }
-.third-sentence-title{
-    font-weight: 400;
-font-size: 36px;
-text-align: justify;
-color: #141414;
-    margin: 0 auto;
-    text-align: center
+.third-sentence-title {
+  font-weight: 400;
+  font-size: 36px;
+  text-align: justify;
+  color: #141414;
+  margin: 0 auto;
+  text-align: center;
 }
 .third-sentence-text {
-    font-weight: 400;
-font-size: 24px;
-text-align: justify;
-color: #000;
-text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: justify;
+  color: #000;
+  text-align: center;
 }
 .footer {
-    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43,74,97,0.87)), url(../images/man-on-bird.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-width: 1440px;
-    padding-top: 35px;
-    padding-bottom: 25px;
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(../images/man-on-bird.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  width: 1440px;
+  padding-top: 35px;
+  padding-bottom: 25px;
 }
 .footer-list {
-    font-size: 20px;
-    text-align: justify;
-    background-image: url(../images/small-line.png);
-    background-repeat: no-repeat;
-    display: flex;
-    width: 689px;
-    background-position: 195px;
-    justify-content: space-between;
+  font-size: 20px;
+  text-align: justify;
+  background-image: url(../images/small-line.png);
+  background-repeat: no-repeat;
+  display: flex;
+  width: 689px;
+  background-position: 195px;
+  justify-content: space-between;
 }
 .footer-lists {
-    margin-left: 46px;
-    margin-top: 15px;
+  margin-left: 46px;
+  margin-top: 15px;
 }
 .hero-list {
-    font-size: 20px;
-    background-image: url(../images/big-line.png);
-    background-repeat: no-repeat;
-    display: flex;
-    width: 665px;
-    background-position: 125px;
-    justify-content: space-between;
+  font-size: 20px;
+  background-image: url(../images/big-line.png);
+  background-repeat: no-repeat;
+  display: flex;
+  width: 665px;
+  background-position: 125px;
+  justify-content: space-between;
 }
 .footer-copyright {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 14px;
-    color: #fff;
-    padding-left: 478px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  padding-left: 478px;
 }
 .footer-list-text {
-    color: var(--primary-link-color);
+  color: var(--primary-link-color);
 }
 .hero-list-text {
-    color: var(--primary-link-color);
-    margin: 0;
+  color: var(--primary-link-color);
+  margin: 0;
 }
 .footer-list-link {
-    color: var(--primary-link-color);
-    margin-top: 20px;
+  color: var(--primary-link-color);
+  margin-top: 20px;
 }
 .hero-list-link {
-    color: var(--primary-link-color);
+  color: var(--primary-link-color);
 }
 .container-second {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .logo-text-footer {
-    display: contents;
+  display: contents;
 }
 .logo-text-footer::after {
-    content: '';
-    width: 1px;
-    height: 153px;
-    background-color: #fff;
-    display: inline-block;
-    margin-left: 80px;
+  content: "";
+  width: 1px;
+  height: 153px;
+  background-color: #fff;
+  display: inline-block;
+  margin-left: 80px;
 }
